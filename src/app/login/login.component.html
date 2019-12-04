@@ -1,0 +1,27 @@
+<div class="container">
+    <h3>Login</h3>
+    <form [formGroup]="formdata" (ngSubmit)="onClickSubmit(formdata.value)">
+        <div class="imgcontainer">
+            <img src="/assets/images/img_avatar.png" alt="Avatar" class="avatar">
+       </div>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <label>User Name <span>*</span></label> <br>
+                <input input-sm type="text" name="UserName" formControlName="UserName" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <label>Password <span>*</span></label> <br>
+                <input input-sm type="password" class="fortextbox" name="passwd" formControlName="passwd" />
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 form-group">
+                <button type="submit" [disabled]="!formdata.valid" value="Login">Login</button>
+                <a [routerLink]="['/registerUser']" class="btn btn-link">Register</a>
+            </div>
+        </div>
+    </form>
+</div>

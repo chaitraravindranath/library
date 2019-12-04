@@ -1,0 +1,171 @@
+{
+  "users": [
+    {
+      "UserName": "admin",
+      "Password": "admin123",
+      "Role": "Admin",
+      "FullName": "Chandrakanth",
+      "UserMobile": "8123774955",
+      "UserEmail": "chandra@gmail.com",
+      "id": 5
+    },
+    {
+      "UserName": "chaitra123",
+      "Password": "chaitra123",
+      "Role": "Member",
+      "FullName": "Chaitra",
+      "UserMobile": "8123774833",
+      "UserEmail": "chaitra@gmail.com",
+      "id": 10
+    },
+    {
+      "UserName": "Pradeep123",
+      "Password": "pradeep123",
+      "Role": "Member",
+      "FullName": "Pradeep",
+      "UserMobile": "9876565743",
+      "UserEmail": "pradeep@gmail.com",
+      "id": 11
+    },
+    {
+      "UserName": "anupama123",
+      "Password": "anupama123",
+      "Role": "Member",
+      "FullName": "Anupama",
+      "UserMobile": "8105464184",
+      "UserEmail": "anupama@gmail.com",
+      "id": 12
+    },
+    {
+      "UserName": "sachin",
+      "Password": "sachin123",
+      "Role": "Member",
+      "FullName": "Sachin",
+      "UserMobile": "8147327534",
+      "UserEmail": "sachin@gmail.com",
+      "id": 13
+    }
+  ],
+  "books": [
+    {
+      "id": 2,
+      "BookID": 102,
+      "BookName": "Instant AngularJS Starter",
+      "BookAuthor": "Dan Menard",
+      "BookCost": 150,
+      "issued": true
+    },
+    {
+      "id": 3,
+      "BookID": 103,
+      "BookName": "Ng-Book: The Complete Book on AngularJS",
+      "BookAuthor": "Ari Lerner",
+      "BookCost": 4657,
+      "issued": false
+    },
+    {
+      "id": 4,
+      "BookID": 104,
+      "BookName": "Developing BackboneJS Applications",
+      "BookAuthor": "Addy Osmani",
+      "BookCost": 650,
+      "issued": false
+    },
+    {
+      "id": 5,
+      "BookID": 105,
+      "BookName": "Backbone.js Patterns and Best Practices",
+      "BookAuthor": "Swarnendu De",
+      "BookCost": 390,
+      "issued": false
+    },
+    {
+      "id": 6,
+      "BookID": 106,
+      "BookName": "Backbone.js Cookbook",
+      "BookAuthor": "Vadim Mirgorod",
+      "BookCost": 240,
+      "issued": false
+    },
+    {
+      "id": 7,
+      "BookID": 107,
+      "BookName": "Ember.js in Action",
+      "BookAuthor": "Joachim Haagen Skeie",
+      "BookCost": 2500,
+      "issued": true
+    },
+    {
+      "id": 8,
+      "BookID": 108,
+      "BookName": "Mastering Ember.js",
+      "BookAuthor": "Mitchel Kelonye",
+      "BookCost": 3500,
+      "issued": false
+    },
+    {
+      "id": 9,
+      "BookID": 109,
+      "BookName": "Developing an EmberJS Edge",
+      "BookAuthor": "Jamie White and Matthew Beale",
+      "BookCost": 2000,
+      "issued": false
+    },
+    {
+      "id": 10,
+      "BookID": 110,
+      "BookName": "Node.js in Action",
+      "BookAuthor": "Mike Cantelon and Marc Harter",
+      "BookCost": 800,
+      "issued": false
+    },
+    {
+      "id": 11,
+      "BookID": 111,
+      "BookName": "Node.js the Right Way",
+      "BookAuthor": "Jim R. Wilson",
+      "BookCost": 1200,
+      "issued": false
+    },
+    {
+      "id": 12,
+      "BookID": 112,
+      "BookName": "Pro Node.js for Developers",
+      "BookAuthor": "Colin Ihrig",
+      "BookCost": 2800,
+      "issued": false
+    }
+  ],
+  "newrequests": [
+    {
+      "id": 10,
+      "BookID": 108,
+      "BookName": "Mastering Ember.js",
+      "MemberID": 999,
+      "MemberName": "Pradeep",
+      "RequestType": "Issue",
+      "RequestStatus": false,
+      "Reason": ""
+    },
+    {
+      "id": 11,
+      "BookID": 109,
+      "BookName": "Developing an EmberJS Edge",
+      "MemberID": 998,
+      "MemberName": "Vinay",
+      "RequestType": "Issue",
+      "RequestStatus": false,
+      "Reason": ""
+    },
+    {
+      "id": 12,
+      "BookID": 110,
+      "BookName": "Node.js in Action",
+      "MemberID": 997,
+      "MemberName": "Govind",
+      "RequestType": "Issue",
+      "RequestStatus": false,
+      "Reason": ""
+    }
+  ]
+}
